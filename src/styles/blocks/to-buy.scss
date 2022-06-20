@@ -1,0 +1,27 @@
+.to-buy {
+    width: 100%;
+    min-height: 40px;
+    display: block;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $to-buy-text-standard-color;
+    background: $to-buy-area-standard-color;
+    border-radius: 5px;
+      
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        display: block;
+        box-sizing: border-box;
+        background: $to-buy-area-hover-color;
+        color: $to-buy-text-hover-color;
+        border: 1px solid $to-buy-text-hover-color;
+        border-radius: 5px;
+    }
+    
+}

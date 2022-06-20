@@ -1,0 +1,39 @@
+@use '../utils/variables' as *;
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: $min-card-padding * 2 $min-card-padding $min-card-padding;
+    max-width: 200px - $min-card-padding * 2;
+    max-height: 400px;
+    border: 1px;
+    border-radius: 5px;
+
+    &__image {
+        margin-bottom: 40px;
+    }
+    
+    &__title {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 4px;
+    }
+    
+    &__code {
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 16px;
+        color: $secondary-text-color;
+    }
+    
+    &__feedbacks {
+        margin-bottom: 24px;
+        font-size: 10px;
+    }
+    
+    &__price {
+        margin-bottom: 16px;
+    }
+}

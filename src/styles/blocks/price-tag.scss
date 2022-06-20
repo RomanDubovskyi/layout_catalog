@@ -1,0 +1,15 @@
+.price-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    &__prefix {
+        font-size: 12px;
+    }
+    
+    &__value {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+}
